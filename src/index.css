@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.sidebar {
+    display: none;
+}
+.swipe {
+    background-image: url(./pages/sedesection/img/bgimg.png);
+    background-repeat: no-repeat; 
+    background-position: right;
+    display: flex;
+    background-size:contain;
+}
+.barg {
+    width: 100%;
+    background-image: url(./pages/sedesection/img/barg.png);
+    background-position: right; 
+    background-repeat: no-repeat;
+}
