@@ -1,8 +1,7 @@
-import React from "react";
-import Showcase from "./Showcase";
-import Cards from "./Cards";
-import Swiperr from "./Swiperr";
-import Ourpage from "./ourpage";
+import Showcase from "./Showcase"
+import Cards from "./Cards"
+import Swiperr from "./Swiperr"
+import Ourpage from "./Ourpage"
 
 const Sections = () => {
   return (
