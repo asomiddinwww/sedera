@@ -6,10 +6,11 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 import { FreeMode, Pagination } from 'swiper/modules';
+import com from "../sedesection/img/com.png"
 
 const Swiperr = () => {
   return (
-    <div className="w-full pt-15">
+    <div className="w-full pt-15 pb-15">
       <div className="max-w-[1220px] m-auto pl-3 pr-3 ">
         <div className="w-full text-center pb-8"><h1 className="text-4xl font-bold">What out clients say</h1></div>
         <div>
@@ -23,15 +24,14 @@ const Swiperr = () => {
         modules={[FreeMode, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={com} alt="" /></SwiperSlide>
       </Swiper>
         </div>
       </div>
