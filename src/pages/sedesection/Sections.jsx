@@ -1,7 +1,7 @@
 import Showcase from "./Showcase"
 import Cards from "./Cards"
 import Swiperr from "./Swiperr"
-import Ourpage from "./Ourpage"
+import Ourpage from "./ourpage";
 
 const Sections = () => {
   return (
