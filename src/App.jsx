@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Our from "./pages/Our";
 import Contact from "./pages/Conatct";
 import About from "./pages/About";
-import Sections from "./pages/sedesection/Section";
+import Sections from "./pages/sedesection/Sections";
 import Cards from "./pages/sedesection/Cards";
 
 import Detail from "./pages/sedesection/cardpage/Detail"; 
