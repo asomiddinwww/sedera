@@ -1,7 +1,7 @@
 import Showcase from "./Showcase"
 import Cards from "./Cards"
 import Swiperr from "./Swiperr"
-import Ourpage from "./ourpage";
+import Ourpage from "./Ourpage";
 import Sedra from "./Sedra";
 
 const Sections = () => {
